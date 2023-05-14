@@ -30,7 +30,7 @@ Choose a CUDA project template, such as "CUDA Runtime Project" or "CUDA Driver P
 Specify the project name, location, and other settings as desired, and click "Create" to create the CUDA project.
 
 
-Step 5: Write and Run CUDA Code.
+Step 5. Write and Run CUDA Code.
 
 1. In the CUDA project, you can write CUDA code in the ".cu" source files, which can be compiled and executed on the GPU.
 2. To build and run the CUDA project, select the desired configuration (e.g., "Debug" or "Release") and click the "Local Windows Debugger" button in the Visual Studio toolbar.
