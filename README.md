@@ -1,14 +1,19 @@
 # Preparing the environment
 
-##Step 1. Install Visual Studio.
+Step 1. Install Visual Studio.
+
 If you haven't already, download and install Visual Studio from the official Visual Studio website (https://visualstudio.microsoft.com/).
 Make sure to install the "Desktop development with C++" workload during the Visual Studio installation, as CUDA development requires C++ development tools.
 
-##Step 2. Install CUDA Toolkit.
+
+Step 2. Install CUDA Toolkit.
+
 Go to the NVIDIA CUDA website (https://developer.nvidia.com/cuda-toolkit) and download the latest version of CUDA Toolkit that is compatible with your GPU and operating system.
 Run the CUDA Toolkit installer and follow the on-screen instructions to install CUDA Toolkit on your system.
 
-##Step 3. Configure Visual Studio for CUDA.
+
+Step 3. Configure Visual Studio for CUDA.
+
 Open Visual Studio and go to "Extensions" > "Manage Extensions".
 Search for "CUDA" in the Extensions and Updates dialog box, and install the "NVIDIA CUDA Toolkit" extension.
 Restart Visual Studio after the extension is installed.
@@ -16,18 +21,23 @@ After restarting, go to "CUDA" > "NVIDIA Nsight" > "Options" in the Visual Studi
 In the "CUDA" tab, specify the path to the CUDA Toolkit installation folder that you installed in Step 2.
 Click "OK" to save the settings.
 
-##Step 4. Create a CUDA Project.
+
+Step 4. Create a CUDA Project.
+
 In Visual Studio, go to "File" > "New" > "Project" to create a new project.
 Select "CUDA" under "Installed" > "Templates" > "Visual C++" > "NVIDIA" in the New Project dialog box.
 Choose a CUDA project template, such as "CUDA Runtime Project" or "CUDA Driver Project", and click "Next".
 Specify the project name, location, and other settings as desired, and click "Create" to create the CUDA project.
 
-##Step 5: Write and Run CUDA Code.
+
+Step 5: Write and Run CUDA Code.
+
 1. In the CUDA project, you can write CUDA code in the ".cu" source files, which can be compiled and executed on the GPU.
 2. To build and run the CUDA project, select the desired configuration (e.g., "Debug" or "Release") and click the "Local Windows Debugger" button in the Visual Studio toolbar.
 3. Visual Studio will build and run the CUDA project, and you can view the output and debug CUDA code using the Visual Studio debugger.
 
-##Step 6. Setup CUDA debugger.
+Step 6. Setup CUDA debugger.
+
 Open Visual Studio: Launch Visual Studio on your system.
 Create a new CUDA project or open an existing one: Either create a new project by selecting "File" -> "New" -> "Project" -> "CUDA" in Visual Studio or open an existing CUDA project.
 Set project properties: Right-click on your CUDA project in the Solution Explorer and select "Properties" from the context menu.
